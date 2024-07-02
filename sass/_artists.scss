@@ -1,0 +1,18 @@
+.artists {
+  background: url(img/wall12.jpg) center;
+  padding: 0 0 0 0;
+  background-size: 100% / 100%;
+  min-height: 100%;
+  background-color: #b9b9b8;
+  height: 1418px;
+  .artists__title {
+    margin: 0 0 40px 0;
+    font-size: 2.5em;
+    text-align: center;
+  }
+  .artists__img {
+    max-width: 1620px;
+    margin: 0 auto;
+    padding-top: 80px;
+  }
+}

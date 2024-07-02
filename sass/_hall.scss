@@ -1,0 +1,109 @@
+.hall {
+  min-height: 1147px;
+  width: 100%;
+  background: url(img/wall22.jpg) center;
+  z-index: 111111111111111;
+  background-size: 100% / 100%;
+  text-align: center;
+  background-color: #b9b9b8;
+  box-sizing: border-box;
+  padding: 182px 0 0 0;
+  font-family: "Inter", sans-serif;
+  color: white; 
+  background-position-y: -300px !important;
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    text-transform: uppercase;
+    .hall__title {
+      margin: 0 0 106px 0;
+      font-size: 2.5em;
+      text-align: center;
+      display: block;
+      width: 100%;
+      transform: translateX(-228px) !important;
+
+      font-weight: 600;
+    }
+    .hall__top {
+      display: flex;
+      flex-direction: column-reverse;
+      width: 50%;
+      margin: 0 auto;
+      align-items: center;
+      padding: 50px 0 100px;
+      height: 100%;
+
+      .hall__info {
+        width: 100%;
+        font-size: 1.2em;
+        .title {
+          font-weight: 700;
+          line-height: 1.4em;
+          display: block;
+
+
+        }
+        .descr {
+          line-height: 1.5em;
+          font-weight: 700;
+        }
+      }
+      .hall__logo {
+        width: 50%;
+        margin-bottom: 45px;
+        img {
+          width: 250px;
+        }
+      }
+    }
+    .hall__owl {
+      width: 46%;
+
+      .hall__slider {
+        div {
+          border-radius: 0;
+          img {
+            border-radius: 0;
+            height: 543px;
+          }
+        }
+        .owl-dots {
+          display: flex;
+          width: 100px;
+          justify-content: space-between;
+          margin: 15px auto 0;
+          .owl-dot {
+            span {
+              width: 10px !important;
+              height: 10px !important;
+              border: 1px solid #26e9e3;
+              display: inline-block;
+              border-radius: 50%;
+            }
+          }
+          .active {
+            background-color: #26e9e3;
+            border-radius: 50%;
+            width: 15px;
+            height: 15px;
+          }
+        }
+      }
+    }
+    .hall__bottom {
+      background-color: rgba(0, 0, 0, 0.9);
+      padding: 50px 0;
+      height: 100%;
+    }
+  }
+}
+.hall__img {
+  .hall__bottom {
+    display: flex;
+    justify-content: center;
+  }
+}

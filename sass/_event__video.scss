@@ -1,0 +1,25 @@
+.event__video {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  // background: no-repeat #000 url(img/ElephantTrunk_Site_Artists_BG.jpg);
+  background-position: center;
+  background-size: cover;
+  z-index: 1000;
+  padding: 30px 0;
+  .event__video_title {
+    margin: 0 0 40px 0;
+    font-size: 2.5em;
+    text-align: center;
+  }
+  .event__video_content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+  .event__video_height {
+    min-height: 500px;
+  }
+}

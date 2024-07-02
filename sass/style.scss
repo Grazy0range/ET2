@@ -1,0 +1,46 @@
+html {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: #333333;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #000000;
+}
+body {
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: #000000;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+}
+.container {
+  width: 1620px;
+  margin: 0 auto;
+}
+.buy__button {
+  transition: all 0.3s;
+}
+.tc-widget-frame_popup {
+  z-index: 99999999999999999999999999999999 !important;
+}
+// .lock {
+//   height: 100vh;
+//   overflow: hidden;
+// }
+
+@import "header";
+@import "main";
+@import "fonts";
+@import "info";
+@import "event__video";
+@import "artists";
+@import "hall";
+@import "tickets";
+@import "gallery";
+@import "footer";
+@import "media";
+@import "preloader";

@@ -1,0 +1,30 @@
+.main {
+  height: 100%;
+  padding: 25px 0;
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .main__bg {
+      min-width: 100%;
+      position: fixed;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: -1000000;
+    }
+    .main__photo {
+      position: relative;
+      z-index: -1;
+      width: auto;
+      display: flex;
+      justify-content: center;
+      .main__photo_wrapper {
+        text-align: center;
+        img {
+          width: 70%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.gallery {
+  padding: 150px 0 100px 0;
+  text-align: center;
+  height: 100%;
+  .gallery__title {
+    margin: 0 0 40px 0;
+    font-size: 2.5em;
+    text-align: center;
+  }
+  .gallery__slider {
+    height: 500px;
+    div {
+      img {
+        height: 500px;
+        width: auto;
+        margin: 0 auto;
+      }
+    }
+    .owl-prev {
+      transform: translate(-450px, -270px);
+      span {
+        font-size: 50px;
+      }
+    }
+    .owl-next {
+      transform: translate(450px, -270px);
+      span {
+        font-size: 50px;
+      }
+    }
+  }
+}
